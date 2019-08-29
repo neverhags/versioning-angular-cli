@@ -116,5 +116,17 @@ De esta manera cuando ejecutemos el comando 'ng8 v' tendremos algo como esto:
  
  
 De esta manera hemos creado nuestros comandos ng8 y ng6 para las versiones de Angular CLI 8 y 6 respectivamente, sin embargo para control de versiones de node por ejemplo es mucho mejor usar herramientas especializadas como NVM.
+
+Luego solo quedaría un último paso opcional que consiste en editar el archivo .bashrc hubicado en tu $HOME
+
+        $ cd $HOME
+        $ nano .bashrc
+        
+y agregar los alias al final del documento, qne en mi caso queda así
+
+        $ alias ng6="$HOME/angv/ang6/node_modules/@angular/cli/bin/ng"
+        $ alias ng8="$HOME/angv/ang8/node_modules/@angular/cli/bin/ng"
+
+Con esto nuestra condiguración quedará guardada en cualquier cosola 'bash/linux' que habramos
  
 Espero el contenido les sirva para sus proyectos profesionales y ayudar a tener un mejor control sobre las versiones de dependencias de sus proyectos, mientras surjan mejores opciones esta es la que he optado dado el caso en particular, queda de parte de cada quien determinar cuál es la mejor opción para su caso.
