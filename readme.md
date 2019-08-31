@@ -54,7 +54,7 @@ Lo que haremos será crear un alias para acceder a este binario desde cualquier 
 De esta manera cuando ejecutemos el comando 'ng8 v' tendremos algo como esto:
  
  
-   $ ng8 v
+    $ ng8 v
     
         _                      _                 ____ _     ___
        / \   _ __   __ _ _   _| | __ _ _ __     / ___| |   |_ _|
@@ -83,11 +83,11 @@ De esta manera cuando ejecutemos el comando 'ng8 v' tendremos algo como esto:
     
 ¡Listo! ahora hagamos lo mismo con la versión 6:
  
-   $ cd ../ang6 // Nos ubicamos en la carpeta ang6
-   $ echo '{}' > package.json
-   $ npm install -s angular-cli@6.2.4
-   $ alias ng6="/<RUTA A TU CARPETA 'angv'>/ng6/node_modules/@angular/cli/bin/ng"
-   $ng6 v
+    $ cd ../ang6 // Nos ubicamos en la carpeta ang6
+    $ echo '{}' > package.json
+    $ npm install -s angular-cli@6.2.4
+    $ alias ng6="/<RUTA A TU CARPETA 'angv'>/ng6/node_modules/@angular/cli/bin/ng"
+    $ng6 v
     
         _                      _                 ____ _     ___
        / \   _ __   __ _ _   _| | __ _ _ __     / ___| |   |_ _|
